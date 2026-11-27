@@ -67,10 +67,9 @@ $$M_k = M_{k-1} - \Delta_k, \qquad \Delta_{k+1} = \Delta_k + 2c_0^2$$
 | :--- | :--- | :--- | :--- | :--- |
 | **1,000-Digit Near-Square ($\Delta \leq 10^{255}$)** | $\Theta(\rho_r \Delta^2 / \sqrt{P})$ (< 1 sec) | $L_P[1/3, 1.923]$ (Centuries — defeated) | $L_P[1/2, \sqrt{2}]$ (Centuries — defeated) | $\Theta(\sqrt{P})$ (Impossible) |
 | **Balanced 3-Prime Triplet ($P = f_1 f_2 f_3$)** | $\Theta(\rho_r^2 P^{1/3})$ | $L_P[1/3, 1.923]$ (Blind to 3rd factor) | $L_P[1/2, \sqrt{2}]$ | $\Theta(P^{1/3}/\log P)$ (Uses `DIV`) |
-| **General Worst-Case ($B_{\text{pre}} = P^{1/4}$)** | **$\Theta(\rho_r P^{3/4})$** *(or $\Theta(\rho_r \sqrt{P})$)* | $L_P[1/3, 1.923]$ | $L_P[1/2, \sqrt{2}] / O(P^{1/4})$ | $\Theta(P \log P) / \Theta(\sqrt{P})$ |
+| **General Worst-Case ($B_{\text{pre}} = P^{1/4}$)** | <b>$\Theta(\rho_r P^{3/4})$</b> <i>(or $\Theta(\rho_r \sqrt{P})$)</i> | $L_P[1/3, 1.923]$ | $L_P[1/2, \sqrt{2}] / O(P^{1/4})$ | $\Theta(P \log P) / \Theta(\sqrt{P})$ |
 | **Parallel K-Core Depth** | $\Theta\left(\frac{W(P)}{K} + \frac{d\sqrt{P}}{10^d}\right)$ | Bottlenecked by $\mathbb{F}_2$ matrix span | Embarrassingly parallel ($1/K$) | $\Theta(W(P)/K)$ |
-| **Memory Requirement** | **$O(1)$ registers + L1 jump LUT** | Terabytes of RAM ($\mathbb{F}_2$ matrix) | $O(\log P)$ to $O(\sqrt{B_2})$ | $O(1)$ to $O(\sqrt{P})$ |
+| **Memory Requirement** | <b>$O(1)$ registers + L1 jump LUT</b> | Terabytes of RAM ($\mathbb{F}_2$ matrix) | $O(\log P)$ to $O(\sqrt{B_2})$ | $O(1)$ to $O(\sqrt{P})$ |
 | **Execution Guarantee** | **100% Deterministic (Zero failure)** | Heuristic (Can fail / trivial roots) | Las Vegas (Probabilistic retries) | 100% Deterministic |
 
 ---
-
