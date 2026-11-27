@@ -133,9 +133,3 @@ While CHW-SBW achieves polynomial time on structured sub-classes, it does \textb
 \item \textbf{Position Relative to $\text{NP}$:} The decision version of integer factorization belongs to $\text{NP} \cap \text{co-NP}$ (and $\text{BQP}$ via Shor's algorithm) and is widely conjectured to be \textbf{$\text{NP}$-intermediate}---neither in $\text{P}$ nor $\text{NP}$-complete. Consequently, even a polynomial-time classical factoring algorithm for general inputs would break RSA without implying $\text{P} = \text{NP}$.
 \end{enumerate}
 \end{document}
-
-<FollowUp>
-Would you like to:
-* Generate the **C / CUDA reference implementation** accompanying this LaTeX specification?
-* Add a **pseudocode algorithm block** (`algorithm2e` / `listings`) directly into the LaTeX document?
-</FollowUp>
