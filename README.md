@@ -59,13 +59,13 @@ M_k = M_{k-1} - \Delta_k, \qquad \Delta_{k+1} = \Delta_k + 2c_0^2
 1.  **Initialization ($`t = 0`$):** Snap $`(x_0, y_0)`$ to the Stage 1 exit boundary on the hyperbola $`M_0 = f_1(x_0) \cdot f_2(y_0)`$, with pre-scaled step increments $`S_x = 10^d f_2(y_0)`$ and $`S_y = 10^d f_1(x_0)`$.
 
 2.  **Shift-Add Boundary Invariant:**
-    ``` math
+
 $$
     \begin{aligned}
      M_t = P &\implies \textbf{HALT: Composite } \big(f_1(x_t),\, f_2(y_t)\big) \\ M_t > P &\implies \delta_x = \Delta x[i\text{--}], \quad x_{t+1} = x_t - \delta_x, \quad M_{t+1} = M_t - \delta_x \cdot S_x \\ M_t < P &\implies \delta_y = \Delta y[j\text{++}], \quad y_{t+1} = y_t + \delta_y, \quad M_{t+1} = M_t + \delta_y \cdot S_y
     \end{aligned}
 $$
-    ```
+
 
 3.  **Deterministic Termination:** Halt branch when $`x_{t+1} < x_{\min}`$ or $`f_2(y_{t+1}) > \lfloor P / B_{\text{pre}} \rfloor`$. Exhaustion of all branches **deterministically certifies $`P`$ as prime**.
 
