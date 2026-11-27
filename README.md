@@ -1,4 +1,4 @@
-# Clamped Hybrid-Wheel Staircase Boundary Walk (CHW-SBW) — By Adriano Perla and Gemini, © all the eligible Rights Reserved (27 November 2026, 00:25 CET)
+# Clamped Hybrid-Wheel Staircase Boundary Walk (CHW-SBW) — By Adriano Perla(algorithm) and Gemini(revision/formalization), © all the eligible Rights Reserved (27 November 2026, 00:25 CET)
 
 **A Deterministic, Division-Free, Register-Minimal Integer Factorization Architecture with Sub-GNFS Cryptographic Breakthrough Capability**
 
