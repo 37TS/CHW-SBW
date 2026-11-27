@@ -17,9 +17,10 @@ Its defining breakthrough lies in **proximity-sensitive cryptographic dominance*
 
 ## 2. Formal Mathematical Specification
 
+
 ### 2.1 Hybrid Decimal-Primorial Wheel & Residue Decomposition
 
-Let $P \in \mathbb{Z}_{> 1}$ be an odd composite integer with $\gcd(P, 10) = 1$, pre-screened up to clamping bound $B_{\text{pre}} \geq 10^d$ (setting $B_{\text{pre}} = P^{1/4}$ for worst-case hyperbola bounding).
+Let $`P \in \mathbb{Z}_{> 1}`$ be an odd composite integer with $`\gcd(P, 10) = 1`$, pre-screened up to clamping bound $`B_{\text{pre}} \geq 10^d`$ (setting $`B_{\text{pre}} = P^{1/4}`$ for worst-case hyperbola bounding).
 
 1. **d-Digit Modular Decomposition:** Choose decimal precision $d \geq 1$ ($c_0 = 10^d \leq \sqrt{P}$) and enumerate the $B_d' = 2 \cdot 10^{d-1}$ unordered coprime residue pairs $(a, b) \in (\mathbb{Z}/10^d\mathbb{Z})^\times \times (\mathbb{Z}/10^d\mathbb{Z})^\times$ satisfying $a \cdot b \equiv P \pmod{10^d}$:
 
