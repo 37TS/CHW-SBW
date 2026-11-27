@@ -74,3 +74,52 @@ $$M_k = M_{k-1} - \Delta_k, \qquad \Delta_{k+1} = \Delta_k + 2c_0^2$$
 | **Execution Guarantee** | **100% Deterministic (Zero failure)** | Heuristic (Can fail / trivial roots) | Las Vegas (Probabilistic retries) | 100% Deterministic |
 
 ---
+
+
+
+MIT License
+
+Copyright (c) 2026 Adriano Perla
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+NOTICE
+# Attribution & Authorship Notice
+
+**Project:** Clamped Hybrid-Wheel Staircase Boundary Walk (CHW-SBW)  
+**Original Author:** Adriano Perla  
+**Timestamp:** 27 November 2026, 00:25 CET  
+**License:** MIT License (see `LICENSE`)
+
+## Attribution Requirements
+
+1. **License & Copyright Preservation:** In accordance with the MIT License, all copies, forks, derivative implementations, and substantial portions of this specification or associated code must retain the copyright notice (`Copyright (c) 2026 Adriano Perla`) and the full MIT License permission text.
+2. **Canonical Designation:** Derivative works, benchmarks, and port implementations referencing this algorithm should retain the canonical architecture name **Clamped Hybrid-Wheel Staircase Boundary Walk (CHW-SBW)** and credit **Adriano Perla** as the original author.
+3. **Citation:** Academic papers, technical reports, and software documentation referencing this specification may cite it using:
+
+```bibtex
+@misc{perla2026chwsbw,
+  author       = {Perla, Adriano},
+  title        = {Clamped Hybrid-Wheel Staircase Boundary Walk (CHW-SBW): A Deterministic, Division-Free, Register-Minimal Integer Factorization Architecture},
+  year         = {2026},
+  note         = {Specification timestamped 27 November 2026, 00:25 CET}
+}
+```
